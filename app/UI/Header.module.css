@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+}
+
+.logoText {
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.navbar a {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.link {
+  color: rgb(0, 0, 0);
+}
+.link:hover {
+  color: #5856e8;
+}
+.button {
+  padding: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #5856e8;
+  color: white;
+}
+
+.burgerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burgerMenu {
+  display: none;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.navbarMobile {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .burgerMenu {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .button {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  .link {
+    color: white;
+  }
+}

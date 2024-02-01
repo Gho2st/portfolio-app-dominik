@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding: 0rem 10rem;
+}
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  width: 32%;
+}
+.header p {
+  font-weight: 200;
+  font-size: 1.2rem;
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.imageContainer {
+  width: 34%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.serviceContainer{
+    width: 80%;
+    background: white;
+    height: 600px;
+    margin: auto;
+    border-radius: 2rem;
+}

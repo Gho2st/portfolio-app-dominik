@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 1.3rem 0.1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.iconContainer {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  background: rgb(31, 100, 45);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.iconContainer svg {
+  font-size: 1.1rem;
+  color: rgb(255, 244, 231);
+}
+.headerContainer h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}

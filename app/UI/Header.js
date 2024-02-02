@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import classes from "./Header.module.css";
-import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 export default function Header() {
   const [isBurgerVisible, setBurgerVisible] = useState(false);
@@ -38,10 +38,11 @@ export default function Header() {
                 SERVICES
               </Link>
               <Link href="/kontakt">WORKS </Link>
-              <Link href="/kontakt">NOTES</Link>
               <Link href="/kontakt">EXPERIENCE</Link>
             </nav>
-            <p>+48 576 985 894</p>
+            <a className={classes.phone} href="tel:+48576985894">
+              <MdOutlinePhoneInTalk/>
+            </a>
           </>
         )}
       </div>

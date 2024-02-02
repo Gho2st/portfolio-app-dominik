@@ -1,3 +1,14 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.downContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,7 +18,7 @@
 .header h1 {
   font-size: 3.5rem;
   font-weight: bold;
-  width: 32%;
+  width: 44%;
 }
 .header p {
   font-weight: 200;
@@ -17,15 +28,47 @@
 }
 
 .imageContainer {
-  width: 34%;
-  margin: auto;
+  width: 60%;
   margin-bottom: 0;
+  margin-top: 0rem;
 }
 
-.serviceContainer{
-    width: 80%;
-    background: white;
-    height: 600px;
-    margin: auto;
-    border-radius: 2rem;
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10rem;
+  margin-bottom: 6rem;
+  width: 30%;
+}
+
+.experience h2 {
+  font-size: 3rem;
+}
+.experience h3 {
+  font-weight: 300;
+}
+
+.rightContainer {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 6rem;
+  width: 30%;
+}
+
+.socialContainer {
+  margin-bottom: 3rem;
+}
+
+.socialContainer h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.socialContainer svg {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  margin-right: 1rem;
 }

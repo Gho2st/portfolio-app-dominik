@@ -1,0 +1,37 @@
+.serviceContainer{
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(251, 247, 243);
+    padding-top: 6rem;
+}
+.ServiceItems{
+    width: 32%;
+}
+.description{
+    width: 52%;
+}
+
+.description h2{
+    word-spacing: 0.3rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.description p{
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.info{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.info h4{
+    font-size: 2.3rem;
+}
+
+.infoItem{
+    margin-right: 5rem;
+}

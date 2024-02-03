@@ -1,37 +1,66 @@
-.serviceContainer{
-    padding: 2rem 10rem;
-    display: flex;
-    justify-content: space-between;
-    background: rgb(251, 247, 243);
-    padding-top: 6rem;
+.serviceContainer {
+  padding: 6rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(251, 247, 243);
+  padding-top: 6rem;
 }
-.ServiceItems{
-    width: 32%;
+.ServiceItems {
+  width: 32%;
 }
-.description{
-    width: 52%;
-}
-
-.description h2{
-    word-spacing: 0.3rem;
-    font-weight: 600;
-    font-size: 2.3rem;
+.description {
+  width: 52%;
 }
 
-.description p{
-    font-weight: 300;
-    line-height: 2rem;
+.description h2 {
+  word-spacing: 0.3rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 1.7rem;
 }
 
-.info{
-    margin-top: 2rem;
-    display: flex;
+.description p {
+  font-weight: 300;
+  line-height: 2rem;
 }
 
-.info h4{
-    font-size: 2.3rem;
+.info {
+  margin-top: 2rem;
+  display: flex;
 }
 
-.infoItem{
-    margin-right: 5rem;
+.info h4 {
+  font-size: 2.3rem;
+}
+
+.infoItem {
+  margin-right: 5rem;
+}
+
+@media (max-width: 1100px) {
+  .serviceContainer {
+    flex-direction: column;
+    padding: 2rem 4rem;
+  }
+  .ServiceItems {
+    margin-top: 3rem;
+    order: 2;
+    width: 50%;
+  }
+
+  .description {
+    order: 1;
+    width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  .ServiceItems {
+    width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  .serviceContainer {
+    flex-direction: column;
+    padding: 2rem 2rem;
+  }
 }

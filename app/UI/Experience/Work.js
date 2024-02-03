@@ -1,23 +1,16 @@
+import Link from "next/link";
 import classes from "./Work.module.css";
 
 export default function Work() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="doświadczenie">
       <h4>Moje doświadczenie</h4>
       <div className={classes.experience}>
-        <div className={classes.left}>
-          <div className={classes.item}>
+        <div className={classes.item}>
+          <div className={classes.header}>
             <h5>Bioinformatyka, UKEN - Kraków</h5>
             <p>2022-2025</p>
           </div>
-          <div className={classes.item}>
-            <h5>MediaMarkt, Kraków</h5>
-          </div>
-          <div className={classes.item}>
-            <h5>Samozatrudnienie - DJJ Software</h5>
-          </div>
-        </div>
-        <div className={classes.right}>
           <div className={classes.detailsItem}>
             <h5>Studia inzynierskie</h5>
             <p>
@@ -27,13 +20,27 @@ export default function Work() {
               informacji genetycznych.
             </p>
           </div>
+        </div>
+        <div className={classes.item}>
+          <div className={classes.header}>
+            <h5>MediaMarkt - Kraków</h5>
+            <p>2023-2024</p>
+          </div>
           <div className={classes.detailsItem}>
-            <h5>Wsparcie techniczne</h5>
+            <h5>Wsparcie Techniczne</h5>
             <p>
               Świadczenie wsparcia informatycznego pierwszej linii,
               specjalizując się w konfiguracji, instalacji oprogramowania na
               komputery i smartfony.
             </p>
+          </div>
+        </div>
+        <div className={classes.item}>
+          <div className={classes.header}>
+            <Link href={"https://www.djj-software.pl/"}>
+              <h5 className={classes.djjSoftware}>Djj Software - CEO</h5>
+            </Link>
+            <p>2023-obecnie</p>
           </div>
           <div className={classes.detailsItem}>
             <h5>Dzialalnosc Freelancerska</h5>

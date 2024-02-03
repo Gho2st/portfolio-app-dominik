@@ -1,0 +1,63 @@
+.container {
+  margin-bottom: 8rem;
+}
+.slider {
+  margin: auto;
+  width: 90%;
+}
+.header h3 {
+  word-spacing: 0.3rem;
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.header p {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  line-height: 2rem;
+}
+
+.reviewContainer {
+  margin-top: 5rem;
+}
+.reviewItem {
+  width: 50%;
+  padding: 1rem;
+}
+
+.review {
+  width: 100%;
+  padding: 2rem;
+  background: rgb(255, 244, 231);
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review h6 {
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  color: rgb(9, 77, 87);
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: black;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+  .header p {
+    width: 75%;
+  }
+  .reviewContainer {
+    margin-top: 2rem;
+  }
+}

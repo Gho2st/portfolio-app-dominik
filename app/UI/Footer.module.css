@@ -1,0 +1,37 @@
+.container {
+  width: 80%;
+  padding: 4rem 10rem;
+  border-top: 1px solid rgb(112, 112, 112);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 1.5rem;
+  border-right: 1px solid black;
+}
+
+.rights p {
+  padding-left: 1.5rem;
+}
+
+.rights {
+  display: flex;
+}
+
+.autor {
+  font-size: 1rem;
+}
+
+@media (max-width: 1250px) {
+  .rights {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+    padding: 2rem 2rem;
+  }
+}

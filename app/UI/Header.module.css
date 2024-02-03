@@ -30,6 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .burgerMenu {
   display: none;
@@ -40,21 +41,43 @@
 .navbarMobile {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-@media (max-width: 767px) {
+.mobileNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mobileNavbar a {
+    margin-top: 1rem;
+  }
+
+
+@media (max-width: 928px) {
   .burgerMenu {
+    display: block;
+  }
+  .burgerContainer {
     display: block;
   }
   .navbar {
     display: none;
   }
-  .button {
-    display: block;
-    margin-top: 1rem;
-    padding: 1rem 1rem;
-    font-size: 1rem;
+  .phone {
+    display: none;
   }
   .link {
     color: white;
+  }
+  .container {
+    padding: 2rem 4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding: 2rem 4rem;
   }
 }

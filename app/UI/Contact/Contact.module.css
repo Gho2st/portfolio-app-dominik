@@ -1,0 +1,84 @@
+.container {
+  padding: 6rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.header {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.welcome {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-top: 6rem;
+}
+.welcome span {
+  color: rgb(242, 141, 0);
+  border-bottom: 1.5px dotted rgb(242, 141, 0);
+}
+
+.info h6 {
+  font-size: 1.5rem;
+}
+
+.info p {
+  margin-top: 0.5rem;
+}
+
+.nav a {
+  margin-top: 2rem;
+  display: block;
+}
+.nav a:hover {
+  color: rgb(255, 136, 0);
+}
+
+@media (max-width: 1250px) {
+  .container {
+    flex-direction: column;
+  }
+  .info h6 {
+    font-size: 1.9rem;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  .welcome {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 923px) {
+  .container {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 627px) {
+  .info h6 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  .welcome {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 627px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+  .header {
+    font-size: 2rem;
+  }
+}

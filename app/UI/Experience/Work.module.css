@@ -1,44 +1,84 @@
 .container {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .container h4 {
   text-align: center;
   word-spacing: 0.3rem;
-  font-size: 2.3rem;
-}
-
-.experience {
-  display: flex;
-  justify-content: space-between;
-  height: 100vh;
-}
-
-.left {
-  width: 40%;
-  margin-left: 8rem;
+  font-size: 2.5rem;
 }
 
 .item {
-  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 3rem;
 }
-
 .item h5 {
   font-size: 1.2rem;
-  font-weight: 600;
+}
+.item p {
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
 }
 
-.right {
+.header {
   width: 40%;
-  margin-right: 8rem;
 }
 
 .detailsItem {
-  margin-top: 4.5rem;
+  width: 50%;
 }
 
-.detailsItem h5 {
-  font-size: 1.2rem;
-  font-weight: 600;
+@media (max-width: 1030px) {
+  .item {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 785px) {
+  .item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailsItem {
+    order: 1;
+    width: 100%;
+  }
+  .detailsItem h5 {
+    font-size: 1.5rem;
+  }
+  .header {
+    order: 2;
+    width: 100%;
+  }
+  .header h5 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .header p {
+    margin-top: 0.3rem;
+  }
+  .container h4 {
+    display: none;
+  }
+}
+
+.djjSoftware{
+    color: rgb(5, 193, 193);
+}
+
+@media (max-width: 484px) {
+  .item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 3rem;
+  }
 }

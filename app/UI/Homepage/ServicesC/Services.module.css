@@ -53,14 +53,13 @@
     width: 100%;
   }
 }
-@media (max-width: 740px) {
-  .ServiceItems {
-    width: 100%;
-  }
-}
+
 @media (max-width: 740px) {
   .serviceContainer {
     flex-direction: column;
     padding: 2rem 2rem;
+  }
+  .ServiceItems {
+    width: 100%;
   }
 }

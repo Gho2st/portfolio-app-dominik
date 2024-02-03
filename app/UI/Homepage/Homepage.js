@@ -11,7 +11,7 @@ export default function Homepage() {
     <>
       <div className={classes.wrapper}>
         <Header />
-
+        <div className={classes.line}></div>
         <div className={classes.container}>
           <div className={classes.header}>
             <h1>Hej, Jestem Dominik</h1>

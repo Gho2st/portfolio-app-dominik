@@ -1,8 +1,10 @@
 export default function sitemap() {
-  return {
-    url: "https://dominik.jojczyk.pl",
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 1,
-  };
+  return [
+    {
+      url: "https://dominikjojczyk.pl",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+  ];
 }

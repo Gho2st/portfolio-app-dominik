@@ -10,8 +10,10 @@ export default function Homepage() {
   return (
     <>
       <div className={classes.wrapper}>
-        <Header />
-        <div className={classes.line}></div>
+        <div>
+          <Header />
+          {/* <div className={classes.line}></div> */}
+        </div>
         <div className={classes.container}>
           <div className={classes.header}>
             <h1>Hej, Jestem Dominik</h1>

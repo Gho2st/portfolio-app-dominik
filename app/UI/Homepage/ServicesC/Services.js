@@ -10,20 +10,20 @@ export default function Services() {
       <div className={classes.ServiceItems}>
         <ServiceItem
           icon={<HiOutlineDesktopComputer />}
-          title={"Web Design"}
-          projects={"10 projects"}
+          title={"Strony internetowe"}
+          projects={"10 projektów"}
           background="green"
         />
         <ServiceItem
           icon={<FaMobileAlt />}
-          title={"Mobile Apps"}
-          projects={"10 projects"}
+          title={"Aplikacje Mobilne"}
+          projects={"2 projekty"}
           background="orange"
         />
         <ServiceItem
           icon={<MdOutlineBrandingWatermark />}
           title={"UI/UX Design"}
-          projects={"10 projects"}
+          projects={"4 projekty"}
           background="red"
         />
       </div>
@@ -40,11 +40,11 @@ export default function Services() {
         <div className={classes.info}>
           <div className={classes.infoItem}>
             <h4>10+</h4>
-            <p>Project Completed</p>
+            <p>Zrealizowane projekty</p>
           </div>
           <div className={classes.infoItem}>
             <h4>15+</h4>
-            <p>Happy clients</p>
+            <p>Zadowoleni klienci</p>
           </div>
         </div>
       </div>

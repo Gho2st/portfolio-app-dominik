@@ -33,7 +33,7 @@ export default function Services() {
           Mozemy razem stworzyć stronę internetową dla Ciebie i twoich Klientów.
           Wspólnie stworzymy wymarzony projekt i wprowadzimy go w zycie.
           <br></br>
-          Wszelkie sprawy od domeny po hosting biorę na siebie, chętnie wytłumaczę wszelkie kroki jakie podejmuje abyś potem mógł to przekuć na "zdrowie" swojej witryny.
+          Wszelkie sprawy od domeny po hosting biorę na siebie, chętnie wytłumaczę wszelkie kroki jakie podejmuje abyś potem mógł to przekuć na zdrowie swojej witryny.
         </p>
         <p>
           Twoja strona będzie przepiękna, łatwa w obsłudze i przyjazna dla

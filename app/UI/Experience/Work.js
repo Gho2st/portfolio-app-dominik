@@ -29,9 +29,19 @@ export default function Work() {
           <div className={classes.detailsItem}>
             <h5>Wsparcie Techniczne</h5>
             <p>
-              Świadczenie wsparcia informatycznego pierwszej linii,
-              specjalizując się w konfiguracji, instalacji oprogramowania na
-              komputery i smartfony.
+              Świadczyłem wsparcie pierwszej linii, AD, ticket system, windows server, konfiguracja sprzętow firmowych.
+            </p>
+          </div>
+        </div>
+        <div className={classes.item}>
+          <div className={classes.header}>
+            <h5>Realme</h5>
+            <p>2024 - cały czas</p>
+          </div>
+          <div className={classes.detailsItem}>
+            <h5>Promotor marki</h5>
+            <p>
+              Tworzenie pozytywnego obrazu marki Realme przez aktywne promowanie jej wartości i innowacyjności w sklepach i innych miejscach publicznych.
             </p>
           </div>
         </div>

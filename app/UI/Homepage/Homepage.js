@@ -12,7 +12,6 @@ export default function Homepage() {
       <div className={classes.wrapper}>
         <div>
           <Header />
-          {/* <div className={classes.line}></div> */}
         </div>
         <div className={classes.container}>
           <div className={classes.header}>
@@ -52,7 +51,7 @@ export default function Homepage() {
               ></Image>
             </div>
             <div className={classes.rightContainer}>
-              <Link href={"https://www.djj-software.pl/"}>
+              <Link href={"https://www.domiweb.pl/"}>
                 <div className={classes.djjsoftware}>
                   <Image src={"/atom.svg"} width={150} height={150} />
                 </div>

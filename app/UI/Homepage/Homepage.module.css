@@ -21,16 +21,16 @@
   width: 44%;
 }
 .header p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.2rem;
   width: 25%;
   margin-top: 2rem;
 }
 
 .imageContainer {
-  width: 60%;
+  width: 35%;
   margin-bottom: 0;
-  margin-top: 0rem;
+  margin-top: 6rem;
 }
 
 .experience {
@@ -57,6 +57,7 @@
   margin-bottom: 6rem;
   width: 30%;
 }
+
 
 .djjsoftware {
   display: flex;
@@ -123,7 +124,7 @@
   .header {
     margin-top: 2rem;
   }
-  .line{
+  .line {
     width: 85%;
     height: 1px;
     margin: auto;
@@ -132,9 +133,7 @@
 }
 
 @media (max-width: 460px) {
-    .header {
-      margin-bottom: 6rem;
-    }
-    
+  .header {
+    margin-bottom: 6rem;
   }
-  
+}

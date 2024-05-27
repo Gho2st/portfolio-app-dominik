@@ -13,7 +13,9 @@ export default function Contact() {
       <div className={classes.infoContainer}>
         <div className={classes.info}>
           <h6>Informacje</h6>
-          <p>Radzikowskiego 61E/8, Kraków, Polska</p>
+          <p>dominik.jojczyk@gmail.com</p>
+          <p>576 985 894</p>
+          <p>Niskowa / Nowy Sącz / Kraków</p>
         </div>
         <div className={classes.nav}>
           <Link href="#usługi">USŁUGI</Link>

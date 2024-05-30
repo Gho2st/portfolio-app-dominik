@@ -13,7 +13,14 @@ export const metadata = {
     template: "%s - portfolio Dominik Jojczyk",
   },
   description:
-    "Hej, jestem Dominik! Mogę przygotować dla Ciebie Twoją stronę internetową według twoich potrzeb. Responsywna, nowoczesna - to jest to.",
+    "Hej, jestem Dominik Jojczyk! Projektuję i pozycjonuję tanie, nowoczesne, responsywne strony internetowe według Twoich potrzeb.",
+  keywords: [
+    "strony internetowe nowy sącz",
+    " pozycjonowanie",
+    " tanie strony internetowe",
+    " projektowanie stron internetowych",
+    " Dominik Jojczyk Niskowa",
+  ],
   alternates: {
     canonical: "/",
   },

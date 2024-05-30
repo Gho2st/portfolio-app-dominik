@@ -5,10 +5,10 @@ export default function Footer() {
     <div className={classes.container}>
       <div className={classes.rights}>
         <h6>Dominik</h6>
-        <p>@2024 All rights reserved</p>
+        <p>2024</p>
       </div>
       <div className={classes.autor}>
-        Design by Dominik Jojczyk.
+        Wykonanie -  Dominik Jojczyk.
       </div>
     </div>
   );

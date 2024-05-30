@@ -7,9 +7,19 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 export const metadata = {
-  title: "Dominik Jojczyk - portfolio",
+  metadataBase: new URL("https://dominikjojczyk.pl"),
+  title: {
+    default: "Dominik Jojczyk - strony internetowe, portfolio",
+    template: "%s - portfolio Dominik Jojczyk",
+  },
   description:
-    "Zawarte tutaj projekty to efekt mojej pasji do tworzenia nowoczesnych stron internetowych oraz projektowania intuicyjnych interfejsów użytkownika. W moim portfolio znajdziesz różnorodność umiejętności, od programowania po estetykę designu.",
+    "Hej, jestem Dominik! Mogę przygotować dla Ciebie Twoją stronę internetową według twoich potrzeb. Responsywna, nowoczesna - to jest to.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   background: rgb(251, 247, 243);
-  padding-top: 6rem;
+  padding-top: 8rem;
+  min-height: 80vh;
 }
 .ServiceItems {
   margin-top: 5rem;

@@ -1,12 +1,7 @@
 .container {
   margin: 0;
   padding: 0;
-}
-
-.downContainer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
+  min-height: 85vh;
 }
 
 .header {
@@ -14,6 +9,7 @@
   justify-content: space-between;
   margin-top: 3rem;
   padding: 0rem 10rem;
+  min-height: 22vh;
 }
 .header h1 {
   font-size: 3.5rem;
@@ -25,6 +21,11 @@
   font-size: 1.2rem;
   width: 25%;
   margin-top: 2rem;
+}
+.downContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .imageContainer {
@@ -57,7 +58,6 @@
   margin-bottom: 6rem;
   width: 30%;
 }
-
 
 .djjsoftware {
   display: flex;

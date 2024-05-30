@@ -1,0 +1,54 @@
+.portfolioItem {
+  width: 100%;
+  padding: 1rem;
+  transition: ease-in;
+}
+.portfolioItem:hover {
+  transform: translateY(-1rem);
+  opacity: 0.9;
+}
+
+.imageContainer {
+  position: relative;
+  background: rgb(243, 179, 1);
+  min-height: 600px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  position: absolute;
+  min-height: 50%;
+  max-width: 80%;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  top: 42%;
+  transform: skewX(10deg) skewY(5deg);
+}
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+}
+.portfolioItem h3 {
+  color: white;
+  font-size: 1.8rem;
+}
+.portfolioItem p {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+  .image {
+    transform: skewX(5deg) skewY(2.5deg);
+  }
+}
+@media (max-width: 880px) {
+  .portfolioItem {
+    padding: 0.2rem;
+  }
+}

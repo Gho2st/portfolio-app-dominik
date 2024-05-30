@@ -12,7 +12,7 @@ export default function Work() {
             <p>2022-2025</p>
           </div>
           <div className={classes.detailsItem}>
-            <h5>Studia inzynierskie</h5>
+            <h5>Studia inżynierskie</h5>
             <p>
               Studiuję bioinformatykę, zdobywając wiedzę z zakresu analizy
               danych biologicznych, programowania w językach takich jak Python i

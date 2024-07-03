@@ -7,7 +7,7 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 export const metadata = {
-  metadataBase: new URL("https://www.dominikjojczyk.pl"),
+  metadataBase: new URL("https://dominikjojczyk.pl"),
   title: {
     default: "Dominik Jojczyk - strony internetowe, portfolio",
     template: "%s - portfolio Dominik Jojczyk",

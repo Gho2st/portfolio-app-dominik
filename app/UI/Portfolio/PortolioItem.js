@@ -9,13 +9,13 @@ export default function PortfolioItem(props) {
           className={classes.imageContainer}
           style={{ background: props.color }}
         >
-          <Image
+          {/* <Image
             src={props.src}
             width={100}
             height={100}
             layout="responsive"
             className={classes.image}
-          ></Image>
+          ></Image> */}
           <div className={classes.info}>
             <h3>{props.title}</h3>
             <p>{props.description}</p>

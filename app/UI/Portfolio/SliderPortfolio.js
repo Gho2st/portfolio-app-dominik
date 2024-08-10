@@ -73,7 +73,7 @@ export default function SliderPortfolio() {
         src="/4.png"
         color="#FF70AB"
         title="Wesołe Wygibasy"
-        description="Witryna dla sieci krakowskich żłobków administrowana przeze mnie."
+        description="Witryna dla sieci krakowskich żłobków."
       />
     </Slider>
   );

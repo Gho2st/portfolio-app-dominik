@@ -30,8 +30,8 @@ export default function Services() {
       <div className={classes.description}>
         <h2>W czym mogę pomóc?</h2>
         <p>
-          Mozemy razem stworzyć stronę internetową dla Ciebie i twoich Klientów.
-          Wspólnie stworzymy wymarzony projekt i wprowadzimy go w zycie.
+          Możemy razem stworzyć stronę internetową dla Ciebie i twoich Klientów.
+          Wspólnie stworzymy wymarzony projekt i wprowadzimy go w życie.
           <br></br>
           Wszelkie sprawy od domeny po hosting biorę na siebie, chętnie wytłumaczę wszelkie kroki jakie podejmuje abyś potem mógł to przekuć na zdrowie swojej witryny.
         </p>

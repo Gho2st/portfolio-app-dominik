@@ -63,6 +63,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.djjsoftware:hover {
+  transform: translateY(-1rem);
+  transform: scale(1.1);
 }
 
 .socialContainer {
@@ -78,6 +83,11 @@
   margin-top: 1rem;
   font-size: 2.2rem;
   margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+
+.socialContainer svg:hover {
+  color: rgb(242, 141, 0);
 }
 
 @media (max-width: 1100px) {

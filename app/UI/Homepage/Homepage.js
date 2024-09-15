@@ -15,8 +15,8 @@ export default function Homepage() {
         </div>
         <div className={classes.container}>
           <div className={classes.header}>
-            <h1>Hej, Jestem Dominik</h1>
-            <p>Tworzę piękne proste rzeczy, I kocham to co robię.</p>
+            <h1>Hej, Jestem Dominik.</h1>
+            <p>Tworzę piękne proste rzeczy, I kocham to co robię!</p>
           </div>
 
           <div className={classes.downContainer}>

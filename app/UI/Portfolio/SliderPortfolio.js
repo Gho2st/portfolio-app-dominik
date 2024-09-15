@@ -55,6 +55,13 @@ export default function SliderPortfolio() {
         description="Analizator DNA wykonany w ramach projektu bionformatycznego na studia."
       />
       <PortfolioItem
+        link="https://www.hukimuki.pl/"
+        src="/2.png"
+        color="#6AAA37"
+        title="Huki Muki Pub & Club"
+        description="Aplikacja webowa dla Huki Muki Pub & Club"
+      />
+      <PortfolioItem
         link="https://www.domiweb.pl/"
         src="/1.png"
         color="#028391"

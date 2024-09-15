@@ -36,23 +36,40 @@
   display: none;
   font-size: 1.3rem;
   color: rgb(0, 0, 0);
+  z-index: 999;
 }
 
 .navbarMobile {
+  position: absolute;
+  height: 100vh;
+  background: white;
+  z-index: 2;
+  top: 0;
+  right: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
   flex-direction: column;
 }
 .mobileNavbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem;
+  margin-top: 5rem;
   flex-direction: column;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
 }
 .mobileNavbar a {
   margin-top: 1rem;
+}
+
+.mobileNavbar button {
+  border: 0;
+  background: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 @media (max-width: 928px) {

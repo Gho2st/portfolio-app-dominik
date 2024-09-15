@@ -55,6 +55,13 @@ export default function Header() {
       {isBurgerVisible && (
         <nav className={classes.navbarMobile}>
           <div className={classes.mobileNavbar}>
+            <button
+              onClick={() => {
+                setBurgerVisible(!isBurgerVisible);
+              }}
+            >
+              X
+            </button>
             <Link onClick={hideMenu} href="#usługi">
               USŁUGI
             </Link>

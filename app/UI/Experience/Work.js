@@ -29,7 +29,8 @@ export default function Work() {
           <div className={classes.detailsItem}>
             <h5>Wsparcie Techniczne</h5>
             <p>
-              Świadczyłem wsparcie pierwszej linii, AD, ticket system, windows server, konfiguracja sprzętow firmowych.
+              Świadczyłem wsparcie pierwszej linii, AD, ticket system, windows
+              server, konfiguracja sprzętów firmowych.
             </p>
           </div>
         </div>
@@ -41,19 +42,21 @@ export default function Work() {
           <div className={classes.detailsItem}>
             <h5>Promotor marki</h5>
             <p>
-              Tworzenie pozytywnego obrazu marki Realme przez aktywne promowanie jej wartości i innowacyjności w sklepach i innych miejscach publicznych.
+              Tworzenie pozytywnego obrazu marki Realme przez aktywne promowanie
+              jej wartości i innowacyjności w sklepach i innych miejscach
+              publicznych.
             </p>
           </div>
         </div>
         <div className={classes.item}>
           <div className={classes.header}>
-            <Link href={"https://www.djj-software.pl/"}>
-              <h5 className={classes.djjSoftware}>Djj Software - CEO</h5>
+            <Link href={"https://www.domiweb.pl/"}>
+              <h5 className={classes.djjSoftware}>Domiweb - CEO</h5>
             </Link>
             <p>2023-obecnie</p>
           </div>
           <div className={classes.detailsItem}>
-            <h5>Dzialalnosc Freelancerska</h5>
+            <h5>Działalność Freelancerska</h5>
             <p>
               Jako niezależny freelancer specjalizuję się w tworzeniu
               responsywnych stron internetowych z użyciem technologii takich jak

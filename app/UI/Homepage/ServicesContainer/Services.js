@@ -39,7 +39,7 @@ export default function Services() {
           Twoja strona będzie przepiękna, łatwa w obsłudze i przyjazna dla
           Google!
           <br></br><br></br>
-          PS: Jezeli chcesz mi zadać jakiekolwiek inne pytanie, jestem na to otwarty!
+          PS: Jeżeli chcesz mi zadać jakiekolwiek inne pytanie, jestem na to otwarty!
         </p>
         <div className={classes.info}>
           <div className={classes.infoItem}>

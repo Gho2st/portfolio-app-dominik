@@ -35,14 +35,13 @@
   .portfolio {
     margin-bottom: 3rem;
     padding: 2rem 4rem;
-    padding-bottom: 8rem;
   }
 }
 
 @media (max-width: 600px) {
   .portfolio {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     padding: 2rem 0rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
   }
 }

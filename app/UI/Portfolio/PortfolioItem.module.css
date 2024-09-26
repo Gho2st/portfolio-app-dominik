@@ -54,6 +54,17 @@
 
 @media (max-width: 600px) {
   .portfolioItem {
-    min-height: 700px;
+    min-height: 0;
+    min-height: 620px;
+  }
+
+  .info {
+    padding-bottom: 0;
+  }
+  .portfolioItem h3 {
+    font-size: 1.8rem;
+  }
+  .portfolioItem p {
+    font-size: 1rem;
   }
 }

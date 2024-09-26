@@ -5,6 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
 
 export default function Header() {
   const [isBurgerVisible, setBurgerVisible] = useState(false);
@@ -43,6 +44,7 @@ export default function Header() {
                 <Link href="#usługi">USŁUGI</Link>
                 <Link href="#portfolio">PORTFOLIO</Link>
                 <Link href="#doświadczenie">DOŚWIADCZENIE</Link>
+                <Link href="#kontakt">KONTAKT</Link>
               </nav>
               <a className={classes.phone} href="tel:+48576985894">
                 <MdOutlinePhoneInTalk />
@@ -76,7 +78,7 @@ export default function Header() {
                   setBurgerVisible(!isBurgerVisible);
                 }}
               >
-                X
+                <IoMdClose />
               </button>
               <Link onClick={hideMenu} href="#usługi">
                 USŁUGI

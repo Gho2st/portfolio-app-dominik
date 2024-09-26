@@ -47,7 +47,7 @@ export default function Reviews() {
     <>
       <div className={classes.container}>
         <div className={classes.header}>
-          <h3>Co mówią inni?</h3>
+          <h2>Opinie Klientów</h2>
           <p>
             Komunikacja to klucz! Jako entuzjasta kodowania, stawiam na
             przyjazne relacje z klientami. Moja filozofia? Bez zbędnych
@@ -55,50 +55,50 @@ export default function Reviews() {
             współpraca, która łączy pasję z prostotą.
           </p>
         </div>
-        <div className={classes.reviewContainer}>
-          <Slider {...settings} className={classes.slider}>
-            <div className={classes.reviewItem}>
-              <div className={classes.review}>
-                <div>
-                  <Stars />
-                </div>
-                <p>
-                  Jestem bardzo zadowolona z całokształtu wykonanego projektu.
-                  Pan Dominik jest miłą osobą z poczuciem humoru, widać że ma
-                  wiedzę niezbędną do wykonywania swojej pracy :)
-                </p>
-                <div className={classes.line}></div>
-                <h6>Milena Głowacka</h6>
+      </div>
+      <div className={classes.reviewContainer}>
+        <Slider {...settings} className={classes.slider}>
+          <div className={classes.reviewItem}>
+            <div className={classes.review}>
+              <div>
+                <Stars />
               </div>
+              <p>
+                Jestem bardzo zadowolona z całokształtu wykonanego projektu. Pan
+                Dominik jest miłą osobą z poczuciem humoru, widać że ma wiedzę
+                niezbędną do wykonywania swojej pracy :)
+              </p>
+              <div className={classes.line}></div>
+              <p className={classes.name}>Milena Głowacka</p>
             </div>
-            <div className={classes.reviewItem}>
-              <div className={classes.review}>
-                <div>
-                  <Stars />
-                </div>
-                <p>
-                  Profesjonalna pomoc w doborze hostingu i administracji strony.
-                </p>
-                <div className={classes.line}></div>
-                <h6>Julia Płachecka</h6>
+          </div>
+          <div className={classes.reviewItem}>
+            <div className={classes.review}>
+              <div>
+                <Stars />
               </div>
+              <p>
+                Profesjonalna pomoc w doborze hostingu i administracji strony.
+              </p>
+              <div className={classes.line}></div>
+              <p className={classes.name}> Julia Płachecka</p>
             </div>
-            <div className={classes.reviewItem}>
-              <div className={classes.review}>
-                <div>
-                  <Stars />
-                </div>
-                <p>
-                  Dzięki stronie internetowej moimi usługami zainteresowało się
-                  wiele nowych klientów. Strona jest przejrzysta i prosta w
-                  obsłudze a na tym najbardziej mi zależało. Polecam!
-                </p>
-                <div className={classes.line}></div>
-                <h6>Jakub Oleś</h6>
+          </div>
+          <div className={classes.reviewItem}>
+            <div className={classes.review}>
+              <div>
+                <Stars />
               </div>
+              <p>
+                Dzięki stronie internetowej moimi usługami zainteresowało się
+                wiele nowych klientów. Strona jest przejrzysta i prosta w
+                obsłudze a na tym najbardziej mi zależało. Polecam!
+              </p>
+              <div className={classes.line}></div>
+              <p className={classes.name}>Jakub Oleś</p>
             </div>
-          </Slider>
-        </div>
+          </div>
+        </Slider>
       </div>
     </>
   );

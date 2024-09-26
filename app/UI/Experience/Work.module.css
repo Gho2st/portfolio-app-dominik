@@ -1,9 +1,14 @@
 .container {
   width: 100%;
   margin-top: 4rem;
+  padding: 2rem 9%;
 }
 
-.container h4 {
+.experience {
+  margin-top: 6rem;
+}
+
+.container h2 {
   text-align: center;
   word-spacing: 0.3rem;
   font-size: 2.5rem;
@@ -12,8 +17,6 @@
 .item {
   display: flex;
   justify-content: space-between;
-  margin-left: 10rem;
-  margin-right: 10rem;
   margin-top: 3rem;
 }
 .item h5 {
@@ -36,13 +39,19 @@
 
 @media (max-width: 1030px) {
   .item {
-    margin-left: 4rem;
-    margin-right: 4rem;
     margin-top: 3rem;
   }
 }
 
 @media (max-width: 785px) {
+  .container {
+    width: 100%;
+    margin-top: 0;
+    padding: 2rem 9%;
+  }
+  .experience {
+    margin-top: 0rem;
+  }
   .item {
     flex-direction: column;
     justify-content: center;
@@ -71,14 +80,12 @@
   }
 }
 
-.djjSoftware{
-    color: rgb(5, 193, 193);
+.djjSoftware {
+  color: rgb(5, 193, 193);
 }
 
 @media (max-width: 484px) {
   .item {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
     margin-top: 3rem;
   }
 }

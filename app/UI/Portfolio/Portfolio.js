@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className={classes.container} id="portfolio">
         <div className={classes.innerContainer}>
           <div className={classes.header}>
-            <h3>Moje ostatnie prace</h3>
+            <h2>Moje ostatnie prace</h2>
             <p>Perfekcyjne rozwiązanie dla wirtualnych doświadczeń</p>
           </div>
           <div className={classes.more}>

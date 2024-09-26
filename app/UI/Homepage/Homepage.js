@@ -15,7 +15,7 @@ export default function Homepage() {
         </div>
         <div className={classes.container}>
           <div className={classes.header}>
-            <h1>Hej, Jestem Dominik.</h1>
+            <h1>Hej, Jestem Dominik!</h1>
             <p>Tworzę piękne proste rzeczy, I kocham to co robię!</p>
           </div>
 
@@ -38,24 +38,25 @@ export default function Homepage() {
                 </Link>
               </div>
               <div className={classes.innerExperience}>
-                <h2>2</h2>
-                <h3>LATA DOŚWIADCZENIA</h3>
+                <h3>
+                  <span className={classes.exp}>2 </span> LATA DOŚWIADCZENIA
+                </h3>
               </div>
             </div>
             <div className={classes.imageContainer}>
               <Image
-                src={"/dominik2.png"}
+                src={"/dominik4.png"}
                 width={100}
                 height={100}
                 layout="responsive"
               ></Image>
             </div>
             <div className={classes.rightContainer}>
-              <Link href={"https://www.domiweb.pl/"}>
+              {/* <Link href={"https://www.domiweb.pl/"}>
                 <div className={classes.djjsoftware}>
                   <Image src={"/atom.svg"} width={150} height={150} />
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

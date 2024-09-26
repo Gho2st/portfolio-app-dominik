@@ -1,4 +1,8 @@
 .slider {
-  margin: auto;
   width: 100%;
+  margin: auto;
+}
+
+.slider img {
+  padding: 1rem;
 }

@@ -1,11 +1,11 @@
 .container {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 .slider {
   margin: auto;
   width: 90%;
 }
-.header h3 {
+.header h2 {
   word-spacing: 0.3rem;
   font-size: 2.3rem;
   text-align: center;
@@ -22,14 +22,16 @@
 
 .reviewContainer {
   margin-top: 5rem;
+  margin-bottom: 6rem;
 }
 .reviewItem {
-  width: 50%;
   padding: 1rem;
+  margin-bottom: 3rem;
 }
 
 .review {
   width: 100%;
+  margin: auto;
   padding: 2rem;
   background: rgb(255, 244, 231);
   border-radius: 1.5rem;
@@ -41,9 +43,10 @@
   align-items: center;
 }
 
-.review h6 {
+.name {
   padding-top: 1rem;
   font-size: 1.1rem;
+  font-weight: 600;
   color: rgb(9, 77, 87);
 }
 .line {
@@ -59,5 +62,21 @@
   }
   .reviewContainer {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviewItem {
+    padding: 1rem;
+  }
+  .review {
+    width: 90%;
+  }
+  .slider {
+    margin: auto;
+    width: 100%;
+  }
+  .reviewContainer {
+    margin-bottom: 2rem;
   }
 }

@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 10rem;
+  padding: 2rem 9%;
 }
 
 .logoText {
@@ -15,6 +15,10 @@
   font-size: 1.1rem;
   font-weight: 400;
   color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+.navbar a:hover {
+  color: orange;
 }
 
 .phone svg {
@@ -88,14 +92,10 @@
   .link {
     color: white;
   }
-  .container {
-    padding: 2rem 2rem;
-  }
 }
 
 @media (max-width: 1100px) {
   .container {
-    padding: 2rem 2rem;
     padding-bottom: 1rem;
   }
 }

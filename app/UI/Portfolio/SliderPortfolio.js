@@ -14,12 +14,12 @@ export default function SliderPortfolio() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1324,
+        breakpoint: 1400,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -48,39 +48,54 @@ export default function SliderPortfolio() {
   return (
     <Slider {...settings} className={classes.slider}>
       <PortfolioItem
-        link="https://github.com/Gho2st/Bioinformatic-Analyse-Dna"
-        src="/2.png"
-        color="#6F4E37"
-        title="Analizator DNA"
-        description="Analizator DNA wykonany w ramach projektu bionformatycznego na studia."
+        link="https://eos-ozonowanie.pl/"
+        src="/portfolio/eos.png"
+        color="#EAD8B1"
+        title="EOS Ozonowanie"
+        description="Ozonowanie Kraków"
       />
       <PortfolioItem
         link="https://www.hukimuki.pl/"
-        src="/2.png"
-        color="#6AAA37"
+        src="/portfolio/hukimuki.png"
+        color="#A2CA71"
         title="Huki Muki Pub & Club"
         description="Aplikacja webowa dla Huki Muki Pub & Club"
       />
       <PortfolioItem
         link="https://www.domiweb.pl/"
-        src="/1.png"
-        color="#028391"
-        title="Domiweb"
+        src="/portfolio/domiweb.png"
+        color="#6CBEC7"
+        title="DomiWeb"
         description="Strona agencji webowej na której znajdują się wszystkie moje projekty."
       />
+
       <PortfolioItem
         link="https://olmart-ns.pl/"
-        src="/3.png"
-        color="#B5C18E"
+        src="/portfolio/olmart.png"
+        color="#B99470"
         title="Olmart"
-        description="Strona internetowa + panel admina dla firmy zduńskiej z Nowego Sącza."
+        description="Strona internetowa + panel admina dla zduna"
       />
       <PortfolioItem
         link="https://wesolewygibasy.pl/"
-        src="/4.png"
-        color="#FF70AB"
+        src="/portfolio/wygibasy.png"
+        color="#FF8A8A"
         title="Wesołe Wygibasy"
         description="Witryna dla sieci krakowskich żłobków."
+      />
+      <PortfolioItem
+        link="https://optyk-andrzej.pl/"
+        src="/portfolio/optyk.png"
+        color="#E5D9F2"
+        title="Optyk Kraków"
+        description="Witryna dla krakowskiego optyka"
+      />
+      <PortfolioItem
+        link="https://beatalakota.pl/"
+        src="/portfolio/beata.png"
+        color="#EDDFE0"
+        title="Beata Łakota"
+        description="Witryna dla Beaty"
       />
     </Slider>
   );

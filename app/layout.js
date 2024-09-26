@@ -9,11 +9,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL("https://dominikjojczyk.pl"),
   title: {
-    default: "Dominik Jojczyk - strony internetowe, portfolio",
-    template: "%s - portfolio Dominik Jojczyk",
+    default: "Strony Internetowe Nowy Sącz | Dominik Jojczyk Portfolio",
   },
   description:
-    "Hej, jestem Dominik Jojczyk! Projektuję i pozycjonuję tanie, nowoczesne, responsywne strony internetowe według Twoich potrzeb.",
+    "Profesjonalne strony internetowe w Nowym Sączu - zaprojektowane według Twoich potrzeb! Oferuję nowoczesne, responsywne i tanie strony, wraz z pozycjonowaniem SEO. Skontaktuj się, aby stworzyć swoją idealną witrynę z Dominikiem Jojczykiem.",
   keywords: [
     "strony internetowe nowy sącz",
     " pozycjonowanie",
@@ -27,6 +26,7 @@ export const metadata = {
   openGraph: {
     images: "/opengraph-image.png",
   },
+  robots: "index, follow",
 };
 
 export default function RootLayout({ children }) {

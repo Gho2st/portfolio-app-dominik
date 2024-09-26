@@ -10,7 +10,7 @@ export default function ServiceItem(props) {
         {props.icon}
       </div>
       <div className={classes.headerContainer}>
-        <h2>{props.title}</h2>
+        <h3>{props.title}</h3>
         <p>{props.projects}</p>
       </div>
     </div>

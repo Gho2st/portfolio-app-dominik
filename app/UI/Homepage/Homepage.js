@@ -49,6 +49,7 @@ export default function Homepage() {
                 width={100}
                 height={100}
                 layout="responsive"
+                alt="Avatar przedstawiający Dominika Jojczyka wystający z laptopa i machający dłonią"
               ></Image>
             </div>
             <div className={classes.rightContainer}>

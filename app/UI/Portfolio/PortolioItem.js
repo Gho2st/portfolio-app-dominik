@@ -16,6 +16,7 @@ export default function PortfolioItem(props) {
             src={props.src}
             width={100}
             height={100}
+            alt={props.description}
             layout="responsive"
             className={classes.image}
           ></Image>

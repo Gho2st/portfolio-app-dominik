@@ -1,10 +1,10 @@
+"use client";
 import Image from "next/image";
 import classes from "./Homepage.module.css";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import Header from "../Header";
+import { motion } from "framer-motion";
 
 export default function Homepage() {
   return (
@@ -15,8 +15,21 @@ export default function Homepage() {
         </div>
         <div className={classes.container}>
           <div className={classes.header}>
-            <h1>Hej, Jestem Dominik!</h1>
-            <p>Tworzę piękne proste rzeczy, I kocham to co robię!</p>
+            {/* Animacja wchodzącego tekstu */}
+            <motion.h1
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              Hej, Jestem Dominik!
+            </motion.h1>
+            <motion.p
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.7 }}
+            >
+              Tworzę piękne proste rzeczy, I kocham to co robię!
+            </motion.p>
           </div>
 
           <div className={classes.downContainer}>
@@ -44,20 +57,22 @@ export default function Homepage() {
               </div>
             </div>
             <div className={classes.imageContainer}>
-              <Image
-                src={"/dominik4.png"}
-                width={100}
-                height={100}
-                layout="responsive"
-                alt="Avatar przedstawiający Dominika Jojczyka wystający z laptopa i machający dłonią"
-              ></Image>
+              <motion.div
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8 }}
+              >
+                <Image
+                  src={"/dominik4.png"}
+                  width={100}
+                  height={100}
+                  layout="responsive"
+                  alt="Avatar przedstawiający Dominika Jojczyka wystający z laptopa i machający dłonią"
+                ></Image>
+              </motion.div>
             </div>
             <div className={classes.rightContainer}>
-              {/* <Link href={"https://www.domiweb.pl/"}>
-                <div className={classes.djjsoftware}>
-                  <Image src={"/atom.svg"} width={150} height={150} />
-                </div>
-              </Link> */}
+              {/* Tutaj możesz dodać inne elementy */}
             </div>
           </div>
         </div>

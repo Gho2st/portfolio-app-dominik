@@ -10,11 +10,11 @@ export default function SliderPortfolio() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
     cssEase: "linear",
     initialSlide: 0,
     responsive: [
@@ -96,6 +96,20 @@ export default function SliderPortfolio() {
         color="#EDDFE0"
         title="Beata Łakota"
         description="Witryna dla Beaty"
+      />
+      <PortfolioItem
+        link="https://barbarapiekos.pl/"
+        src="/portfolio/barbara.png"
+        color="#FFBD73"
+        title="Barbara Piękoś"
+        description="Witryna dla Barbary Piękoś"
+      />
+      <PortfolioItem
+        link="https://szlafroki.krakow.pl/"
+        src="/portfolio/szlafrok.png"
+        color="#D6C0B3"
+        title="SzlafrO.K."
+        description="Witryna dla SzlafrO.K."
       />
     </Slider>
   );

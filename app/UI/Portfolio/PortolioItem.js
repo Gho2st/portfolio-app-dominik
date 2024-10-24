@@ -8,7 +8,7 @@ export default function PortfolioItem(props) {
         <div className={classes.info}>
           <div className={classes.info__background}>
             <h3>{props.title}</h3>
-            <p>{props.description}</p>
+            {/* <p>{props.description}</p> */}
           </div>
         </div>
         <div className={classes.imageContainer}>
